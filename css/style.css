@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: system-ui;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container .title {
+    font-size: 30px;
+    color: gray;
+}
+.container ul {
+    position: relative;
+    left: 20px;
+}
+.container .reload {
+    outline: none;
+    border: none;
+    background-color: gray;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 20px;cursor: pointer;
+}
